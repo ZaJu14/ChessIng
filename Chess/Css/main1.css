@@ -1,0 +1,111 @@
+#img01 {
+  display: grid;
+  place-items: center;
+}
+#def {
+  width: 70%;
+  margin-left: 15%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  font-size: 1.5em;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#defp::first-letter {
+  font-size: 2em;
+}
+.zCar {
+  margin: 35px !important ;
+  border: 1px solid black;
+  width: 200px !important;
+}
+.zCar2 {
+  border-top: 0.5px dashed black;
+}
+.cardText {
+  font-family: "Dancing Script", cursive;
+  font-family: "Alfa Slab One", cursive;
+  font: bold;
+}
+body {
+  background: linear-gradient(#393b98, #141552);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.list01 {
+  color: red;
+}
+#h90 {
+  color: black;
+  font-size: 10em;
+  display: grid;
+  place-items: center;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: "Alfa Slab One", cursive;
+}
+.btn-primary,
+.btn-outline-success {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #0105ff8f;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #393b98;
+  --bs-btn-hover-border-color: #6800ff;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #3f51b5;
+  --bs-btn-active-border-color: #132064;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #000000;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+[data-bs-theme="dark"] {
+  position: sticky !;
+  --bs-tertiary-bg-rgb: 0, 0, 0;
+}
+#center {
+  color: #000000;
+}
+#list {
+  margin: 20px;
+}
+abc {
+  color: red;
+}
+.image {
+  align-items: center;
+}
+
+.centering {
+  width: 80%;
+  margin-left: 10%;
+  display: grid;
+  place-items: center;
+}
+
+.centeringp {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.title {
+  padding-top: 20px;
+}
+
+#row5 {
+  align-items: center;
+}
+.table-dark {
+  border-color: #5d788c !important;
+}
+h5 {
+  color: #ffffff;
+}
+.dropdown-menu {
+  --bs-dropdown-bg: #1f1f1f;
+}
